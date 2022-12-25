@@ -6,48 +6,67 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
-    <link rel="stylesheet" href="product.css">
+    <link rel="stylesheet" href="products.css">
     <link rel="stylesheet" href="style.css">
     <title>Shopping Website</title>
 </head>
 <body>
     <!-- navbar here -->
     <header class="header">
-		<ul>
+		      <ul>
             <li><a href="./index.html"><i class="fa-solid fa-crown icone"></i></i></a></li>
             <!-- <li><a href="#news">News</a></li>
             <li><a href="#contact">Contact</a></li> -->
-            <li style="float:right"><a class="" href="./product.html">ours products</a></li>
+            <li style="float:right"><a class="" href="./products.html">ours products</a></li>
           </ul>
 	</header> 
     <!-- end header footer here -->
-    <div class="row">
-        <div class="column">
-          <img src="./image/fashion-gd754c1aa8_1920.jpg" alt="Nature" style="width:100%">
-          <div class="div1">
-                <p class="woman1">Woman's Black Top</p>
-                <p class="price1">$14.40 <b class="barre1">$16.00</b> </p>
-                <button class="button1">add to cart</button>
-                <p class="new1">New</p>
-                <p class="pourcentage1">-10%</p>
-          </div>
-        </div>
-        <div class="column">
-          <img src="./image/fashion-gd754c1aa8_1920.jpg" alt="Snow" style="width:100%">
-        </div>
-        <div class="column">
-          <img src="./image/fashion-gd754c1aa8_1920.jpg" alt="Mountains" style="width:100%">
-        </div>
-        <div class="column">
-          <img src="./image/fashion-gd754c1aa8_1920.jpg" alt="Lights" style="width:100%">
-        </div>
+    <div class="container">
+      <div class="product">
+            <div><img src="images/image1.png" alt="">
+              <span class="vente">NEW</span>
+              <span class="reduction">-10%</span>
+            </div>
+            <div class="info">
+              <p>Women's Black Top</p>
+              <p class="price"><span class="nouveau_prix">$14.40</span><span class="ancien_prix">$16.00</span></p>
+              <button type="submit" class="btn">ADD TO CARD</button>
+            </div>
       </div>
-      
-      <div class="container">
-        <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
-        <img id="expandedImg" style="width:100%">
-        <div id="imgtext"></div>
+      <div class="product">
+         <div class=""><img src="images/image2.png" alt="">
+          <span class="vente">NEW</span>
+          <span class="reduction">-10%</span>
+        </div>
+            <div class="info">
+              <p>Men's Blue Shirt</p>
+              <p class="price"><span class="nouveau_prix">$17.60</span><span class="ancien_prix">$20.00</span></p>
+                   <button type="submit" class="btn">ADD TO CARD</button>
+            </div>
       </div>
+      <div class="product">
+            <div><img src="images/image3.png" alt="">
+              <span class="vente">NEW</span>
+              <span class="reduction">-10%</span>
+            </div>
+            <div class="info">
+            <p>Men's White Shirt</p>
+             <p class="price"  ><span class="nouveau_prix">$14.40</span><span class="ancien_prix">$16.00</span></p>
+             <button type="submit" class="btn">ADD TO CARD</button>
+            </div>
+      </div>
+      <div class="product">
+            <div> <img src="images/image4.png" alt="">
+              <span class="vente">NEW</span>
+              <span class="reduction">-10%</span>
+            </div>
+            <div class="info">
+            <p>Women'S Black Top</p>
+             <p class="price"><span class="nouveau_prix">$14.40</span><span class="ancien_prix">$16.00</span></p>
+             <button type="submit" class="btn">ADD TO CARD</button>
+            </div>
+      </div>
+</div>
     <!-- footer here -->
         <footer>
             <p>© 2022 developpeur Yves Armand</p>
