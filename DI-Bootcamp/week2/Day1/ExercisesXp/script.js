@@ -10,6 +10,11 @@ console.log("I eat " + nourriturePreferee + "at every " + favorite);/**I eat Fou
 
 /////////////////////////////////////////Exercice 2 ////////////////////////////////////////////////////////
 let myWatchedSeriesSentence ="casa de papel, 24 chrono, prison breack";
+/**********************************************************
+Correcteur: Yannick GOUGUIA
+Mauvaise reponse a la ligne 18
+
+*********************************************************/
 let myWatchedSeriesLength =3;
 let lengthSentence ="I watched " +myWatchedSeriesLength+ " series :" + myWatchedSeriesSentence;
 const myWatchedSeries = ["black mirror", "money heist", "the big bang theory"];
@@ -27,6 +32,11 @@ console.log(myWatchedSeries);
 
 
 /////////////////////////////////////////Exercice 3 ////////////////////////////////////////////////////////
+/**********************************************************
+Correcteur: Yannick GOUGUIA
+il manque des parentheses a la ligne 41
+
+*********************************************************/
 let temperature = 45;
 let fahrenheit = temperature *9/5 + 32;
 
