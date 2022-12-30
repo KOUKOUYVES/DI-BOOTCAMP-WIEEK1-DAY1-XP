@@ -9,10 +9,11 @@ let favorite = repasPrefereeJournee[1];
 console.log("I eat " + nourriturePreferee + "at every " + favorite);/**I eat Foutou igname avec sauce djumpklé at every garba */
 
 /////////////////////////////////////////Exercice 2 ////////////////////////////////////////////////////////
-let myWatchedSeriesSentence ="casa de papel, 24 chrono, prison breack";
-let myWatchedSeriesLength =3;
-let lengthSentence ="I watched " +myWatchedSeriesLength+ " series :" + myWatchedSeriesSentence;
 const myWatchedSeries = ["black mirror", "money heist", "the big bang theory"];
+let myWatchedSeriesSentence ="casa de papel, 24 chrono, prison breack";
+let myWatchedSeriesLength = myWatchedSeries.length;
+let lengthSentence ="I watched " +myWatchedSeriesLength+ " series :" + myWatchedSeriesSentence;
+
 let modification = myWatchedSeries[2] = "freinds";
 let ajouter =myWatchedSeries.push("the badlans");
 let ajoutDebut = myWatchedSeries.unshift("ma famille");
@@ -28,8 +29,7 @@ console.log(myWatchedSeries);
 
 /////////////////////////////////////////Exercice 3 ////////////////////////////////////////////////////////
 let temperature = 45;
-let fahrenheit = temperature *9/5 + 32;
-
+let fahrenheit = (temperature *9/5)+ 32;
 console.log(fahrenheit);
 
 /////////////////////////////////////////Exercice 4 ////////////////////////////////////////////////////////
