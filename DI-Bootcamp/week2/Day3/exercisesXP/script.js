@@ -1,3 +1,5 @@
+////////////////////////////////////////////Exercice1//////////////////////////////////////////////////////////////////;
+
 const people = ["Greg", "Mary", "Devon", "James"];
 let supprimer =  people.splice(0, 1)
 let modification= people[2] = "Jason";
@@ -6,8 +8,6 @@ let position =people.indexOf("Mary");
 let copieTableau = people.slice(1,3);
 let position1 = people.indexOf("Foo");
 let last = people.indexOf(1);
-
-////////////////////////////////////////////Exercice1//////////////////////////////////////////////////////////////////;
 
 //console.log(people);
 console.log(supprimer);/**['Mary', 'Devon', 'James'] supprime greg */
@@ -63,7 +63,7 @@ do{
     if (saisie < 10) {
        console.log("recommencez svp "); 
     }else{
-        console.log("merci vous avez saisie "+ typeof(saisie)  + " un nombre superieur a 10 bravo");
+        console.log("merci vous avez saisie "+ saisie  + " un nombre superieur a 10 bravo");
     }
 }
 while (!saisie);

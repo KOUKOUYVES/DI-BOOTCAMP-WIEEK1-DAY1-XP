@@ -9,7 +9,7 @@ let addLink = document.createElement('a');
 addLink.href="#";
 
 let deplacerLinkDansLi = addLi.appendChild(addLink)
-let deplacerLogoutDansLink = addLink.appendChild(deconnexion)
+let deplacerLogoutDansLink = addLink.appendChild(deconnexion);
 
 
 console.log(divNavbar);

@@ -4,7 +4,6 @@
 let nourriturePreferee = "Foutou igname avec sauce djumpklé ";
 let repasPrefereeJournee =["café","garba","riz avec sauce "];
 
-
 let favorite = repasPrefereeJournee[1];
 console.log("I eat " + nourriturePreferee + "at every " + favorite);/**I eat Foutou igname avec sauce djumpklé at every garba */
 
